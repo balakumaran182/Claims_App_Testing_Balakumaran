@@ -1,0 +1,106 @@
+<testsuites id="" name="" tests="14" failures="0" skipped="0" errors="0" time="33.917079">
+<testsuite name="api\admin-dashboard.api.spec.ts" timestamp="2026-11-19T09:42:57.688Z" hostname="api" tests="4" failures="0" skipped="0" time="0.27" errors="0">
+<testcase name="rejects anonymous access to admin dashboard statistics" classname="api\admin-dashboard.api.spec.ts" time="0.031">
+</testcase>
+<testcase name="denies a claimant access to dashboard statistics" classname="api\admin-dashboard.api.spec.ts" time="0.069">
+</testcase>
+<testcase name="denies a claimant permission to flush the dashboard cache" classname="api\admin-dashboard.api.spec.ts" time="0.064">
+</testcase>
+<testcase name="admin can read dashboard statistics and flush the cache" classname="api\admin-dashboard.api.spec.ts" time="0.106">
+</testcase>
+</testsuite>
+<testsuite name="ui\admin-dashboard.behavior.ui.spec.ts" timestamp="2026-11-19T09:42:57.688Z" hostname="ui" tests="8" failures="0" skipped="0" time="24.617" errors="0">
+<testcase name="P-01: admin sees dashboard statistics and cache performance" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="2.806">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-48d49-stics-and-cache-performance-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-48d49-stics-and-cache-performance-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-02: dashboard shows zero for claim statuses omitted by the API" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="2.689">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-276a1-statuses-omitted-by-the-API-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-276a1-statuses-omitted-by-the-API-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-03: refresh and cache actions remain disabled while statistics are loading" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="2.699">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-06265-hile-statistics-are-loading-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-06265-hile-statistics-are-loading-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-04: dashboard displays a request error and lets the user retry" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="3.426">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-5d4e2-ror-and-lets-the-user-retry-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-5d4e2-ror-and-lets-the-user-retry-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-05: flushing cache reloads statistics and shows a cache miss" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="3.262">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-71faf-tics-and-shows-a-cache-miss-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-71faf-tics-and-shows-a-cache-miss-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-06: access denied for dashboard statistics redirects the user away" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="3.233">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-05101-ics-redirects-the-user-away-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-05101-ics-redirects-the-user-away-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-07: failed cache flush is reported without showing a cache miss" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="3.26">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-8091b-ithout-showing-a-cache-miss-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-8091b-ithout-showing-a-cache-miss-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="P-08: access denied while flushing cache redirects the user away" classname="ui\admin-dashboard.behavior.ui.spec.ts" time="3.242">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-e6b62-che-redirects-the-user-away-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.behavio-e6b62-che-redirects-the-user-away-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="ui\admin-dashboard.ui.spec.ts" timestamp="2026-11-19T09:42:57.688Z" hostname="ui" tests="2" failures="0" skipped="0" time="6.557" errors="0">
+<testcase name="admin can view dashboard statistics and reload them after flushing the cache" classname="ui\admin-dashboard.ui.spec.ts" time="3.208">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.ui-admi-7cd9d-em-after-flushing-the-cache-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.ui-admi-7cd9d-em-after-flushing-the-cache-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="claimant cannot view the admin dashboard through direct navigation" classname="ui\admin-dashboard.ui.spec.ts" time="3.349">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.ui-clai-969f3-d-through-direct-navigation-ui\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\ui-admin-dashboard.ui-clai-969f3-d-through-direct-navigation-ui\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
